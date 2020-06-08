@@ -1,4 +1,4 @@
-# Handbuch Webharvesting mit Sphinx
+# Handbuch Webharvesting
 
 Eigenes virtuelles Python 
 ```bash
