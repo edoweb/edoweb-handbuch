@@ -1,20 +1,25 @@
 .. edoweb documentation master file, created by
-   sphinx-quickstart on Mon Jun  8 11:30:43 2020.
+   sphinx-quickstart on Wed Nov 27 15:17:38 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to edoweb's documentation!
-==================================
+edoweb Handbuch
+===============
+
+Hier entsteht die Dokumentation für den Rheinland-pfälzischer Archivserver `edoweb <https://www.edoweb-rlp.de/>`_
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Inhalt
+   
+   einleitung
+   allgemein-nutzung
+   webschnitte
+   
 
 
-
-Indices and tables
-==================
+Index
+=====
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
