@@ -8,9 +8,10 @@ Clonen des git repositories:
 $ git clone git@github.com:edoweb/edoweb-handbuch.git
 $ cd edoweb-handbuch
 ```
-Eigenes virtuelles Python 
+Eigenes virtuelles Python installieren und aktivieren
 ```bash
 $ /usr/bin/virtualenv -p /usr/bin/python3 python3
+$ . python3/bin/activate
 ```
 
 Sphinx installieren:
