@@ -31,7 +31,18 @@ $ pip install -U sphinx-markdown-tables
 $ pip install -U sphinx-rtd-theme
 ```
 
-Für PDF-output:
+Erzeugen der HTML-Doku im build-Verzeichnis:
+
+```bash
+$ make html
+```
+Erzeugen der Doku im PDF Format:
+
+```bash
+$ make latexpdf
+```
+
+Für PDF-output müssen evtl. weiter Pakete installiert werden. Unter Ubuntu z.B. mit
 ```bash
 $ sudo apt install texlive-latex-base latexmk texlive-latex-extra
 ```
