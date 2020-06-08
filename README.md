@@ -1,5 +1,13 @@
 # Handbuch Webharvesting
 
+## Installation
+
+Clonen des git repositories:
+
+```bash
+$ git clone git@github.com:edoweb/edoweb-handbuch.git
+$ cd edoweb-handbuch
+```
 Eigenes virtuelles Python 
 ```bash
 $ /usr/bin/virtualenv -p /usr/bin/python3 python3
@@ -10,6 +18,7 @@ Sphinx installieren:
 $ pip install -U Sphinx
 ```
 Support für Markdown und Markdowntabellen nachinstallieren
+
 ```bash
 $ pip install -U recommonmark
 $ pip install -U sphinx-markdown-tables
@@ -19,4 +28,9 @@ $ pip install -U sphinx-markdown-tables
 
 ```bash
 $ pip install -U sphinx-rtd-theme
+```
+
+Für PDF-output:
+```bash
+$ sudo apt install texlive-latex-base latexmk texlive-latex-extra
 ```

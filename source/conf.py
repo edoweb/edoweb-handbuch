@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'edoweb'
-copyright = '2020, Peter Reimer'
+copyright = '2020, hbz'
 author = 'Peter Reimer'
 
 
@@ -61,9 +61,25 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+#html_theme = 'alabaster'
 html_theme = 'sphinx_rtd_theme'
-
+html_logo = 'edoweb-logo.png'
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_last_updated_fmt = '%d. %b %Y'
+html_sidebars = {
+   '**': ['globaltoc.html', 'sourcelink.html', 'searchbox.html', 'hbzlogo.html'],
+}
+
+latex_paper_size = 'a4'
+# Grouping the document tree into LaTeX files. List of tuples
+# (source start file, target name, title, author, documentclass [howto/manual]).
+latex_documents = [
+  ('index', 'edoweb-Handbuch.tex', u'Handbuch edoweb Webharvesting',
+    u'Dr. Peter Reimer', 'manual'),
+]
+
+
